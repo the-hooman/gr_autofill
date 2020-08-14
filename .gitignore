@@ -1,0 +1,5 @@
+# Ignore DS_Store files, virtual environment
+.DS_Store
+grammarlyenv/
+docs/build/
+docs/source/_templates/
