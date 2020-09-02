@@ -60,4 +60,6 @@ html_context = {
         ],
      }
 
+master_doc = 'index'
+
 extensions = ['sphinx.ext.autosectionlabel']
