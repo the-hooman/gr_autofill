@@ -12,8 +12,6 @@ Use case diagram
 Use case specification
 ----------------------
 
-.. figure:: /images/use-case-spec.png
-
 ===================== ============================================================================================================================
  UC ID and Name:      UC-501 Creating a new document with text hints
 ===================== ============================================================================================================================
@@ -39,12 +37,12 @@ Normal flow:          1. User clicks on the “New” icon
                          #. Formal tone / Informal tone
                       #. proceed to document creation in the new window with the selected business rules
 --------------------- ----------------------------------------------------------------------------------------------------------------------------
-Alternative flows:    * Upon selecting “Disable suggestion” option, proceed to regular document creation flow without text hint :ref:`feature<m_feat>`
+Alternative flows:    * Upon selecting “Disable suggestion” option, proceed to regular document creation flow without text hint feature
                       * If the “Enable suggestion” option is selected, and nothing is changed in the “Select doc type” and Formal tone / Informal tone, proceed to create a document with the default options of doc type & tone.
 --------------------- ----------------------------------------------------------------------------------------------------------------------------
 Exceptions:           The feature is not to be enacted upon new document creation when the 'Disable suggestion option is selected
 --------------------- ----------------------------------------------------------------------------------------------------------------------------
-Priority:             Should be implemented after the .. _m_feat: `main feature for Text Analysis & Suggestions is ready<m_feat>`
+Priority:             Should be implemented after the main feature for Text Analysis & Suggestions is ready
 --------------------- ----------------------------------------------------------------------------------------------------------------------------
 Frequency of use:     Each time the feature is enabled in a new document
 --------------------- ----------------------------------------------------------------------------------------------------------------------------
@@ -56,7 +54,7 @@ Business rules:       1. The feature is available for all the users with “Amer
                          * Article
                          * Ad
                       4. Formal tone / Informal tone option activates tone format per templates of either tone option
-                      5. Suggested text to be shown in the background in grey color as per specification for the text hint :ref:`feature<m_feat>`
+                      5. Suggested text to be shown in the background in grey color as per specification for the text hint feature
 --------------------- ----------------------------------------------------------------------------------------------------------------------------
 Assumptions:          * The feature is available for Grammarly’s registered users, works by given business rules and for American English language only.
                       * The feature cannot be forcefully turned off for users with the indicated Language Preference.        
@@ -65,9 +63,6 @@ Assumptions:          * The feature is available for Grammarly’s registered us
 
 User story
 ----------
-
-.. figure:: /images/user-story.png
-
 
 ============ ========================================================
  User Story: Creating a new document with text hints
@@ -91,6 +86,4 @@ User story
 **while**    typing
 **and**      text hint appear                      
 ============ ========================================================
-
-
 
